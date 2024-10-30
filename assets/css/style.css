@@ -1,0 +1,891 @@
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    .text-small {
+        position: relative;
+        margin-left: 160px;
+        top: 10px;
+    }
+
+    .content-all {
+        display: inline-flex;
+    }
+
+    .header-color{
+        color: red;
+        font-size: 25px;
+        position: relative;
+        left: 25px;
+    }
+
+    .header-color-2{
+        color: #1a1a1a;
+        font-size: 25px;
+        position: relative;
+        left: 25px;
+    }
+
+    .button-self {
+        background-color: #ED1C24;
+        border: none;
+        color: white;
+        cursor: pointer;
+        width: 24%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: relative;
+        height: 35px;
+    }
+
+    .button-img {
+        position: absolute;
+        top: 7px;
+        left: 1px;
+    }
+
+    .header {
+        display: inline-flex;
+        position: relative;
+        width: 100%;
+        top: -50px;
+    }
+
+    .header-self {
+        position: relative;
+        left: 24.8%;
+        font-size: 28px;
+        margin-left: -24px;
+    }
+
+    .header-img{
+        position: absolute;
+        padding: 30px;
+        background-color: white;
+        border-radius: 50%;
+        left: 40px;
+        top: -30px;
+        border: 4px solid #f0f0f0;
+    }
+
+    .banner{
+        width: auto;
+        height: auto;
+    }
+
+    .banner-text{
+        max-width: 100px;
+        text-align: center;
+        position: relative;
+        top: -350px;
+        left: 50px;
+        color: white;
+        font-size: 15px;
+    }
+
+    .banner-button{
+        position: relative;
+        bottom: 275px;
+        margin-left: 20px;
+        background-color: white;
+        width: 80%;
+        border: none;
+        padding: 6px;
+        color: #ED1C24;
+        cursor: pointer;
+    }
+
+    .banner-button a {
+        color: red;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .banner-button a:active{
+        color: inherit;
+    }
+
+    .well {
+        min-height: 20px;
+        padding: 19px;
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+        position: relative;
+    }
+
+    .col-60 .text-input{
+        width: 50%;
+        padding: 12px 6px 6px 0;
+        outline: none;
+        border: none;
+        border-radius: 0;
+        border-bottom: 2px #ED1C24 solid;
+    }
+
+    .col-60::placeholder {
+        color: grey;
+        opacity: 0.5;
+        font-size: 25px;
+    }
+
+    .col-60 .text-input {
+        outline: none;
+        border-bottom: 2px solid red;
+        box-shadow: none;
+        width: 90%;
+    }
+
+    .col-60 .text-input :focus{
+        outline: none;
+        border-bottom: 2px solid red;
+        box-shadow: none;
+    }
+
+    small {
+        color: black;
+        opacity: 0.5;
+    }
+
+    .col-25 label {
+        margin-right: 12px;
+        display: inline-block;
+        float: right;
+        position: relative;
+        top: 18px;
+        font-size: 12px;
+    }
+
+    .container {
+        border-radius: 0;
+        width: 60%;
+        height: 524px;
+    }
+
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+
+    .col-50 {
+        float: left;
+        width: 60%;
+        margin-top: 6px;
+    }
+
+    .col-60 {
+        float: left;
+        width: 65%;
+        margin-top: 6px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        padding-bottom: 40px;
+        width: 50%;
+    }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    .wpcontent {
+        margin-left: 40px !important;
+    }
+
+    .text-small {
+        position: absolute;
+        margin-left: 165px;
+        top: 10px;
+    }
+
+    .col-60 small {
+        color: black;
+        opacity: 0.5;
+    }
+
+    .content-all {
+        display: inline-flex;
+    }
+
+    .header-color{
+        color: red;
+        font-size: 25px;
+        position: relative;
+        left: 25px;
+    }
+
+    .header-color-2{
+        color: #1a1a1a;
+        font-size: 25px;
+        position: relative;
+        left: 25px;
+    }
+
+    .header-self {
+        position: relative;
+        left: 24.8%;
+        font-size: 28px;
+        top: -50px;
+        margin-left: -5px;
+    }
+
+    .header-img{
+        position: absolute;
+        padding: 30px;
+        background-color: white;
+        border-radius: 50%;
+        left: 20px;
+        top: -50px;
+        border: 4px solid #f0f0f0;
+    }
+
+    .button-self {
+        background-color: #ED1C24;
+        border: none;
+        color: white;
+        cursor: pointer;
+        width: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: relative;
+        height: 35px;
+    }
+
+    .button-img {
+        position: absolute;
+        top: 7px;
+        left: 1px;
+    }
+
+    .well {
+        min-height: 20px;
+        padding: 19px;
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+        position: relative;
+    }
+
+    .col-60 .text-input {
+        width: 50%;
+        padding: 12px 6px 6px 0;
+        outline: none;
+        border: none;
+        border-radius: 0;
+        border-bottom: 2px #ED1C24 solid;
+    }
+
+    .col-25 label {
+        margin-right: 12px;
+        display: inline-block;
+        float: right;
+        position: relative;
+        top: 18px;
+        font-size: 12px;
+    }
+
+    .col-60::placeholder {
+        color: grey;
+        opacity: 0.5;
+        font-size: 25px;
+    }
+
+    .col-60 .text-input {
+        outline: none;
+        border-bottom: 2px solid red;
+        box-shadow: none;
+        width: 90%;
+    }
+
+    .col-60 .text-input :focus{
+        outline: none;
+        border-bottom: 2px solid red;
+        box-shadow: none;
+    }
+
+    .container {
+        border-radius: 0;
+        width: 60%;
+        height: 520px;
+    }
+
+    .col-25 {
+        float: left;
+        width: 35%;
+        margin-top: 6px;
+    }
+
+    .col-50 {
+        float: left;
+        width: 60%;
+        margin-top: 6px;
+    }
+
+    .col-60 {
+        float: left;
+        width: 65%;
+        margin-top: 6px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        padding-bottom: 40px;
+        width: 50%;
+    }
+
+    .banner{
+        width: auto;
+        height: auto;
+    }
+
+    .banner img {
+        width: auto;
+        height: auto;
+    }
+
+    .banner-text{
+        max-width: 100px;
+        text-align: center;
+        position: relative;
+        top: -350px;
+        left: 50px;
+        color: white;
+        font-size: 15px;
+    }
+
+    .banner-button{
+        position: relative;
+        bottom: 280px;
+        margin-left: 20px;
+        background-color: white;
+        width: 80%;
+        border: none;
+        padding: 6px;
+        color: #ED1C24;
+        cursor: pointer;
+    }
+
+    .banner-button a {
+        color: red;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .text-small {
+        position: absolute;
+        margin-left: 120px;
+        top: 10px;
+    }
+
+    .content-all {
+        display: inline-flex;
+    }
+
+    .header-color{
+        color: red;
+        font-size: 25px;
+        position: relative;
+        left: 25px;
+    }
+
+    .header-color-2{
+        color: #1a1a1a;
+        font-size: 25px;
+        position: relative;
+        left: 25px;
+    }
+
+    .header-self {
+        position: relative;
+        left: 24.8%;
+        font-size: 28px;
+        top: -50px;
+        margin-left: -19px;
+    }
+
+    .header-img{
+        position: absolute;
+        padding: 30px;
+        background-color: white;
+        border-radius: 50%;
+        left: 20px;
+        top: -50px;
+        border: 4px solid #f0f0f0;
+    }
+
+    .button-self {
+        background-color: #ED1C24;
+        border: none;
+        color: white;
+        cursor: pointer;
+        width: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: relative;
+        height: 35px;
+    }
+
+    .button-img {
+        position: absolute;
+        top: 7px;
+        left: 1px;
+    }
+
+    .well {
+        min-height: 20px;
+        padding: 19px;
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+        position: relative;
+    }
+
+    .col-60 text-input, select, textarea {
+        width: 50%;
+        padding: 12px 6px 6px 0;
+        outline: none;
+        border: none;
+        border-radius: 0;
+        border-bottom: 2px #ED1C24 solid;
+    }
+
+    .col-25 label {
+        padding: 12px 12px 12px 12px;
+        display: inline-block;
+        float: right;
+        position: relative;
+        top: 5px;
+        font-size: 12px;
+    }
+
+    .col-60::placeholder {
+        color: grey;
+        opacity: 0.5;
+        font-size: 25px;
+    }
+
+    .col-60 .text-input{
+        outline: none;
+        border: none;
+        border-bottom: 2px solid red;
+        box-shadow: none;
+        width: 90%;
+    }
+
+    .col-60 .text-input:focus{
+        outline: none;
+        border-bottom: 2px solid red;
+        box-shadow: none;
+    }
+
+    .container {
+        border-radius: 0;
+        width: 60%;
+        height: 520px;
+    }
+
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+
+    .col-50 {
+        float: left;
+        width: 60%;
+        margin-top: 6px;
+    }
+
+    .col-60 {
+        float: left;
+        width: 65%;
+        margin-top: 6px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        padding-bottom: 40px;
+        width: 50%;
+    }
+
+    .banner{
+        width: auto;
+        height: auto;
+    }
+
+    .banner img {
+        width: auto;
+        height: auto;
+    }
+
+    .banner-text{
+        max-width: 100px;
+        text-align: center;
+        position: relative;
+        top: -350px;
+        left: 50px;
+        color: white;
+        font-size: 15px;
+    }
+
+    .banner-button{
+        position: relative;
+        bottom: 280px;
+        margin-left: 20px;
+        background-color: white;
+        width: 80%;
+        border: none;
+        padding: 6px;
+        color: #ED1C24;
+        cursor: pointer;
+    }
+
+    .banner-button a {
+        color: red;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .well {
+        min-height: 20px;
+        padding: 19px;
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+        position: relative;
+    }
+
+    small {
+        display: none;
+    }
+
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 12px;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .col-60 .text-input {
+        width: 50%;
+        padding: 12px 6px 6px 0;
+        outline: none;
+        border: none;
+        border-radius: 0;
+        border-bottom: 2px #ED1C24 solid;
+    }
+
+    .col-60::placeholder {
+        color: grey;
+        opacity: 0.5;
+        font-size: 25px;
+    }
+
+    .col-60 .text-input{
+        outline: none;
+        border-bottom: 2px solid red;
+        box-shadow: none;
+        width: 90%;
+        float: right;
+    }
+
+    .col-60 .text-input:focus{
+        outline: none;
+        border-bottom: 2px solid red;
+        box-shadow: none;
+    }
+
+    .container {
+        border-radius: 0;
+        width: 60%;
+        height: 520px;
+    }
+
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+
+    .col-50 {
+        float: left;
+        width: 60%;
+        margin-top: 6px;
+    }
+
+    .col-60 {
+        float: left;
+        width: 65%;
+        margin-top: 6px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        padding-bottom: 40px;
+        width: 50%;
+    }
+
+    .header-img{
+        position: absolute;
+        padding: 15px;
+        background-color: white;
+        border-radius: 50%;
+        left: 20px;
+        top: -50px;
+        border: 4px solid #f0f0f0;
+    }
+
+    .col-25 label {
+        display: inline-block;
+        float: left;
+        position: relative;
+        top: 15px;
+        font-size: 12px;
+    }
+
+    .button-self {
+        background-color: #ED1C24;
+        border: none;
+        color: white;
+        cursor: pointer;
+        width: 70%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: relative;
+        height: 35px;
+        left: -25px;
+    }
+
+    .button-img {
+        position: absolute;
+        top: 7px;
+        left: 1px;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .test {
+        display: inline-flex;
+    }
+
+    .header {
+        display: inline-flex;
+        position: relative;
+        width: 100%;
+        top: -50px;
+    }
+
+    .header-self {
+        position: absolute;
+        left: 24%;
+        font-size: 13px;
+        margin-left: 40px;
+    }
+
+    .header-img{
+        position: absolute;
+        padding: 20px;
+        background-color: white;
+        border-radius: 50%;
+        top: -30px;
+        border: 4px solid #f0f0f0;
+    }
+
+
+    .header-color{
+        color: red;
+    }
+
+    .header-color-2{
+        color: #1a1a1a;
+    }
+
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+
+    .col-50 {
+        float: left;
+        width: 60%;
+        margin-top: 6px;
+    }
+
+    .col-60 {
+        float: left;
+        width: 40%;
+        margin-top: 6px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        padding-bottom: 40px;
+        width: 50%;
+    }
+
+    small {
+        display: none;
+    }
+
+    .col-60 .text-input {
+        width: 50%;
+        padding: 12px 6px 6px 0;
+        outline: none;
+        border: none;
+        border-radius: 0;
+        border-bottom: 2px #ED1C24 solid;
+    }
+
+    .col-60::placeholder {
+        color: grey;
+        opacity: 0.5;
+        font-size: 25px;
+    }
+
+    .col-60 .text-input:focus{
+        outline: none;
+        border-bottom: 2px solid red;
+        box-shadow: none;
+    }
+
+    .col-60 .text-input{
+        position: relative;
+        left: 50%;
+        outline: none;
+        border-bottom: 2px solid red;
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .col-25 label {
+        display: inline-block;
+        float: left;
+        position: relative;
+        top: 15px;
+        font-size: 12px;
+    }
+
+    .button-self {
+        background-color: #ED1C24;
+        border: none;
+        color: white;
+        cursor: pointer;
+        width: 70%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: relative;
+        height: 35px;
+        left: -25px;
+    }
+
+    .button-img {
+        position: absolute;
+        top: 7px;
+        left: 1px;
+    }
+
+    .well {
+        min-height: 20px;
+        padding: 12px;
+        margin: auto;
+        background-color: white;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+        position: relative;
+        width: 250px;
+    }
+
+    .banner{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
